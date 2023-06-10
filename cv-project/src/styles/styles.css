@@ -18,6 +18,21 @@ body {}
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px ;
+    padding: 4rem;
+    gap: 2rem;
 }
 
 .personal-grid {
@@ -25,6 +40,8 @@ main {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     /* margin: auto; */
+    border-bottom: 1px solid gray;
+    max-width: 60%;
 }
 
 h1 {

@@ -1,8 +1,11 @@
 import React from "react";
 
 export const PersonalForm = () => {
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
-    <form>
+    <form onSubmit={handleFormSubmit}>
       <div className="personal-grid">
         <div>
           <label htmlFor="first-name">First Name </label>
