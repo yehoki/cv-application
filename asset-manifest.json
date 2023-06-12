@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cv-application/static/css/main.40d22ac8.css",
+    "main.js": "/cv-application/static/js/main.0cd038f2.js",
+    "static/media/github-mark.svg": "/cv-application/static/media/github-mark.0fe6486fb13b13a23173aef11c50bdc7.svg",
+    "index.html": "/cv-application/index.html",
+    "main.40d22ac8.css.map": "/cv-application/static/css/main.40d22ac8.css.map",
+    "main.0cd038f2.js.map": "/cv-application/static/js/main.0cd038f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40d22ac8.css",
+    "static/js/main.0cd038f2.js"
+  ]
+}
