@@ -19,12 +19,10 @@ export const EducationForm = (props) => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     setFormVisible(!formVisible);
-    console.log(school, qualification, startDate, endDate);
     props.setEducation([
       ...props.education,
       new educationObject(school, qualification, startDate, endDate),
     ]);
-    console.log(props.education);
     setSchool("");
     setQualification("");
     setStartDate("");
